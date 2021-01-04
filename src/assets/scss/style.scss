@@ -1,0 +1,11 @@
+@charset "utf-8";
+@use "_partial/_partial";
+
+h1 {
+  color: partial.$color-text;
+  text-size-adjust: auto;
+}
+
+img {
+  width: 200px;
+}
